@@ -1,0 +1,13 @@
+body {
+	display: -webkit-flex; /* Safari　*/
+	display: flex;
+	justify-content: center;
+}
+.sidebar {
+	flex-grow: 10;
+	background-color: #FFFF66;
+}
+.content {
+	flex-grow: 16;
+	background-color: #FFFFCC;
+}
